@@ -3,3 +3,66 @@
     grid-template-columns: 500px 500px;
     grid-gap: 40px;
 }
+
+
+    nav ul li.active {
+        background: #ddd;
+    
+        font-weight: bold;
+        border-bottom: 2px solid blueviolet;
+    }
+    
+    nav ul {
+        
+        
+        width: 100%;
+        display: block;
+       
+    }
+
+    nav ul li {
+        display: block;
+        
+        text-align: left;
+    }
+
+    
+    .menu-icon {
+        display: block;
+        cursor: pointer;
+    }
+
+   
+    main,
+    header,
+    footer,
+    img,
+    .picture-gallery {
+        width: 100%;
+        margin: 0;
+        padding: 5px;
+    }
+
+    
+    img {
+        max-width: 100%;
+        height: auto;
+    }
+
+    
+    body,
+    p {
+        font-size: 16px;
+    }
+
+   
+    .picture-gallery {
+        display: flex;
+        flex-direction: column;
+    }
+
+    .picture-gallery img {
+        margin-bottom: 10px;
+    }
+
+
