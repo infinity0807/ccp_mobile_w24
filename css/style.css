@@ -1,0 +1,5 @@
+.picture-gallery{
+    display:grid;
+    grid-template-columns: 500px 500px;
+    grid-gap: 40px;
+}
